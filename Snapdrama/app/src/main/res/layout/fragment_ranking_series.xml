@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.fragment.rankingFragment.MostTredingFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textShortDrama"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="@dimen/_6sdp"
+        android:scrollbars="none">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

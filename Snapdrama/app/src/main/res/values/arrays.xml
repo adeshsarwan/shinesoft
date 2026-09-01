@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common country codes; you can extend this list as needed -->
+    <string-array name="country_codes">
+        <item>+91</item>
+        <item>+1</item>
+        <item>+44</item>
+        <item>+61</item>
+        <item>+81</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_below="@+id/imageTopRanking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_3sdp"
+    android:background="@drawable/background_rank_dyanamic_list"
+    android:orientation="horizontal"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<!--    android:background="@drawable/background_new_list"-->
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardLayout"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginVertical="@dimen/_6sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:elevation="0dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageSeries"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="@dimen/_150sdp"
+                    android:scaleType="fitXY" />
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageRankImage"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+
+        android:src="@drawable/image_ranking1"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeDesc"
+        android:layout_toStartOf="@+id/stickerView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/cardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/layoutViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image_fire_icon"/>
+            <TextView
+                android:id="@+id/textRankCurrentViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/mulish_medium"
+                android:text="5,85,236"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:layout_below="@+id/layoutViews"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:maxLines="2"
+
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:textSize="@dimen/_10sdp"
+            android:fontFamily="@font/mulish_medium"
+            android:text="I love your fiancé's uncle"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+
+        android:id="@+id/stickerView"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/image_background_new"/>
+
+
+
+</RelativeLayout>

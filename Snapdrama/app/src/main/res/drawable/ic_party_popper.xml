@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- party popper body -->
+    <path
+        android:fillColor="#E9325A"
+        android:pathData="M28,62 L18,78 L34,72 Z" />
+    <path
+        android:fillColor="#C6284A"
+        android:pathData="M28,62 L42,48 L48,54 L34,72 Z" />
+
+    <!-- confetti -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M52,28 L56,22 L60,28 L56,34 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M62,36 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#E9325A"
+        android:pathData="M48,20 L50,16 L52,20 L50,24 Z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M68,28 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M58,18 L60,14 L62,18 L60,22 Z" />
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M70,40 L73,36 L76,40 L73,44 Z" />
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M44,34 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0" />
+</vector>

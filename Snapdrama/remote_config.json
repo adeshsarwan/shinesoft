@@ -1,0 +1,257 @@
+{
+  "publisher_ad_units_manage": {
+    "publisher_AppOpen_Ad_Id": [
+      "ca-app-pub-3940256099942544/9257395921"
+    ],
+    "publisher_Native_Ad_Id": [
+      "ca-app-pub-2256714742649688/9260520336"
+    ],
+    "publisher_Interstitial_Ad_Id": [
+      "ca-app-pub-2256714742649688/1442786245"
+    ],
+    "publisher_Banner_Ad_Id": [
+      "ca-app-pub-3940256099942544/9214589741"
+    ],
+    "publisher_Reward_Ad_Id": [
+      "ca-app-pub-3940256099942544/5224354917"
+    ],
+    "splash_native": [
+      "ca-app-pub-2256714742649688/5214510292",
+      "ca-app-pub-2256714742649688/7948484845"
+    ],
+    "splash_native_old": [
+      "ca-app-pub-2256714742649688/3901428628",
+      "ca-app-pub-2256714742649688/6635403177"
+    ],
+    "splash_inter": [
+      "ca-app-pub-2256714742649688/1442786245",
+      "ca-app-pub-2256714742649688/7816622903"
+    ],
+    "splash_inter_old": [
+      "ca-app-pub-2256714742649688/6503541236",
+      "ca-app-pub-2256714742649688/1573602004"
+    ],
+    "lfo1_native": [
+      "ca-app-pub-2256714742649688/9260520336"
+    ],
+    "lfo1_native_2": [
+      "ca-app-pub-2256714742649688/6195373296"
+    ],
+    "lfo2_native": [
+      "ca-app-pub-2256714742649688/9990300614",
+      "ca-app-pub-2256714742649688/6634356998",
+      "ca-app-pub-2256714742649688/5322321507"
+    ],
+    "lfo2_native_2": [
+      "ca-app-pub-2256714742649688/6634356998"
+    ],
+    "lfo2_native_3": [
+      "ca-app-pub-2256714742649688/5322321507"
+    ],
+    "onboard_1_native": [
+      "ca-app-pub-2256714742649688/5321275326",
+      "ca-app-pub-2256714742649688/4882291624"
+    ],
+    "onboard_1_native_2": [
+      "ca-app-pub-2256714742649688/4882291624"
+    ],
+    "onboard_2_native": [
+      "ca-app-pub-2256714742649688/2588346958"
+    ],
+    "onboard_2_native_2": [
+      "ca-app-pub-2256714742649688/4009239839"
+    ],
+    "onboard_3_native": [
+      "ca-app-pub-2256714742649688/4008193656"
+    ],
+    "onboard_3_native_2": [
+      "ca-app-pub-2256714742649688/2695111982"
+    ],
+    "onboard_3_native_3": [
+      "ca-app-pub-2256714742649688/1382030319"
+    ],
+    "onboard_4_native": [
+      "ca-app-pub-2256714742649688/6386468657",
+      "ca-app-pub-2256714742649688/1788748098"
+    ],
+    "onboard_4_native_2": [
+      "ca-app-pub-2256714742649688/1788748098"
+    ],
+    "inter_onboard": [
+      "ca-app-pub-2256714742649688/5073386984",
+      "ca-app-pub-2256714742649688/2780077744"
+    ],
+    "splash_ads_show_type": "Inter",
+    "home_new_native_ads_positions": 5,
+    "home_ranking_native_ads_position": 5
+  },
+  "exo_player_vast_url": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&cmsid=496&vid=short_onecue&correlator=",
+  "inter_bottom_ads_count": 10,
+  "int_watch_ad_free_video": 10,
+  "int_user_free_episode": 10,
+  "interstitial_ad_count": 3,
+  "interstitial_ad_show": false,
+  "after_login_ads_show": false,
+  "exo_player_ima_show": false,
+  "exo_player_ima_ads_count": 4,
+  "url_privacy_policy": "https://sites.google.com/ignia.cc/snap-drama/home",
+  "url_help_feedback": "https://sites.google.com/ignia.cc/snap-drama/home",
+  "engine_box": {
+    "main_base_url": "https://api.rovedata.xyz/",
+    "main_ak": "P6qA7KtPgjqc",
+    "main_sk": "5ymaioEr",
+    "main_transaction_url": "http://172.236.151.195:8000/",
+    "main_country_url": "https://ip.smartproxy.com/json"
+  },
+  "inr_premium_plan_details": {
+    "standard_plan_1": {
+      "coins": 100,
+      "extra_coins": 400,
+      "price": 99
+    },
+    "standard_plan_2": {
+      "coins": 200,
+      "extra_coins": 0,
+      "price": 199
+    },
+    "standard_plan_3": {
+      "coins": 500,
+      "extra_coins": 50,
+      "price": 480
+    },
+    "standard_plan_4": {
+      "coins": 1200,
+      "extra_coins": 150,
+      "price": 950
+    },
+    "weekly_membership": {
+      "main_price": 499,
+      "discount_price": "₹999",
+      "title": "₹499.00/week for the first 3 weeks, then ₹999.00/week"
+    },
+    "yearly_membership": {
+      "main_price": 4999,
+      "discount_price": "-",
+      "title": "₹4999.00 per year. Save more with yearly plan."
+    }
+  },
+  "usd_premium_plan_details": {
+    "standard_plan_1": {
+      "coins": 100,
+      "extra_coins": 400,
+      "price": 1.19
+    },
+    "standard_plan_2": {
+      "coins": 200,
+      "extra_coins": 0,
+      "price": 2.99
+    },
+    "standard_plan_3": {
+      "coins": 500,
+      "extra_coins": 50,
+      "price": 5.99
+    },
+    "standard_plan_4": {
+      "coins": 1200,
+      "extra_coins": 150,
+      "price": 11.99
+    },
+    "weekly_membership": {
+      "main_price": 5,
+      "discount_price": "$9.00",
+      "title": "$5.00/week for the first 3 weeks, then $9.00/week"
+    },
+    "yearly_membership": {
+      "main_price": 50,
+      "discount_price": "-",
+      "title": "$50.00 per year. Save more with yearly plan"
+    }
+  },
+  "test_id": true,
+  "publisher_ad_units_manage_test": {
+    "publisher_AppOpen_Ad_Id": [
+      "ca-app-pub-3940256099942544/9257395921"
+    ],
+    "publisher_Native_Ad_Id": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "publisher_Interstitial_Ad_Id": [
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "publisher_Banner_Ad_Id": [
+      "ca-app-pub-3940256099942544/9214589741"
+    ],
+    "publisher_Reward_Ad_Id": [
+      "ca-app-pub-3940256099942544/5224354917"
+    ],
+    "splash_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "splash_native_old": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "splash_inter": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "splash_inter_old": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "lfo1_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo1_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native_3": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_1_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_1_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_2_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_2_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native_3": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_4_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_4_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "inter_onboard": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "splash_ads_show_type": "Inter",
+    "home_new_native_ads_positions": 5,
+    "home_ranking_native_ads_position": 5
+  }
+}

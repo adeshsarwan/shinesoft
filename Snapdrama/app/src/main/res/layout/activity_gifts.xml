@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.setting.GiftsActivity">
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/image_back_scn_icon"
+            app:tint="@color/whiteMy" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_6sdp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/mulish_semibold"
+            android:text="@string/gifts"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_26sdp"
+            android:visibility="invisible"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/image_back_scn_icon"
+            app:tint="@color/whiteMy" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:src="@drawable/image_gifts_icon"
+                android:adjustViewBounds="true"
+                android:layout_marginVertical="@dimen/_5sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_bold"
+                android:text="@string/enter_gift_code_here"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:hint="@string/enter_your_mobile_number"
+                android:maxLength="10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_11sdp"
+                android:fontFamily="@font/mulish_medium"
+                android:textColorHint="@color/grey_colors"
+                android:inputType="phone"
+                android:drawablePadding="12dp"
+                android:background="@drawable/background_episode_num"/>
+
+            <TextView
+                android:id="@+id/btnLoginPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:backgroundTint="#383838"
+                android:gravity="center"
+                android:text="@string/redeem"
+                android:background="@drawable/background_login_button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/mulish_semibold"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="@string/tips"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_medium"
+                android:text="@string/tips_1"
+                android:textColor="#7B7B7B"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_medium"
+                android:text="@string/tips_2"
+                android:textColor="#7B7B7B"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_medium"
+                android:text="@string/tips_3"
+                android:textColor="#7B7B7B"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_medium"
+                android:text="@string/tips_4"
+                android:textColor="#7B7B7B"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.snapdrama.shortstream.ads.SmallNativeViewAds
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="@dimen/_5sdp">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_7sdp">
+
+        <ImageView
+            android:id="@+id/imageSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/_150sdp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradiant_border"
+            android:rotation="180" />
+
+        <TextView
+            android:id="@+id/freeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/_4sdp"
+
+            android:padding="@dimen/_3sdp"
+            android:text="@string/free"
+            android:textColor="@color/whiteMy"
+            android:textSize="@dimen/_8sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViews"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/ic_btn"
+            android:drawableStart="@drawable/eye2"
+
+            android:drawablePadding="@dimen/_3sdp"
+            android:drawableTint="@color/whiteMy"
+            android:gravity="center_vertical"
+            android:textColor="@color/whiteMy"
+            android:textSize="@dimen/_8sdp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_margin="4dp"
+        android:background="@drawable/ic_btn"
+        android:padding="2dp"
+        android:text="@string/_new"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:visibility="gone" />
+</FrameLayout>
+
+<TextView
+    android:id="@+id/textSeriesName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/mulish_semibold"
+    android:ellipsize="end"
+    android:maxLines="2"
+    android:paddingTop="4dp"
+    android:text="Episode Title"
+    android:textColor="@color/white"
+    android:textSize="@dimen/_12sdp"
+    />
+
+</LinearLayout>

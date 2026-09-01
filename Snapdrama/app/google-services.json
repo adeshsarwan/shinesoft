@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "451282541905",
+    "project_id": "snapdrama-shortstream",
+    "storage_bucket": "snapdrama-shortstream.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451282541905:android:316357b8b381efe6d54770",
+        "android_client_info": {
+          "package_name": "com.snapdrama.shortstream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451282541905-dsg5mbt5nu0vcd885422g6v4f7vi3g0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snapdrama.shortstream",
+            "certificate_hash": "7157a782b7c156227cb9574bdccb2c4694323b99"
+          }
+        },
+        {
+          "client_id": "451282541905-fvseujclosneobtg1p0s5t03jsr92rkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIlSgxrPd0a9Y4sq3GZVuqBvW4vSojAFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451282541905-fvseujclosneobtg1p0s5t03jsr92rkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_episodes_img">
+
+                <ImageView
+                    android:id="@+id/buttonClose"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/image_close_button"/>
+
+                <RelativeLayout
+                    android:id="@+id/relativeHeader"
+                    android:layout_below="@+id/buttonClose"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-10dp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+
+                        android:id="@+id/cardLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="@dimen/_10sdp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+
+                            <RelativeLayout
+                                android:id="@+id/mainLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageSeries"
+                                    android:layout_width="@dimen/_75sdp"
+                                    android:layout_height="match_parent"
+                                    android:adjustViewBounds="true"
+                                    android:scaleType="centerCrop" />
+
+
+
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <RelativeLayout
+                        android:layout_toEndOf="@+id/cardLayout"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+                            android:layout_marginStart="@dimen/_6sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_14sdp"
+                            android:fontFamily="@font/mulish_bold"
+                            android:text="I love your fiancé's uncle"
+                            />
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_below="@id/textView1"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="start"
+                            android:maxLines="2"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textColor="#8E8C8C"
+                            android:layout_marginStart="@dimen/_6sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_11sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView2"
+                            android:layout_marginStart="@dimen/_6sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:orientation="horizontal"
+                            >
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycleViewCategory"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/linearCategory"
+    android:layout_below="@+id/relativeHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:id="@+id/selectCategory"
+        android:layout_below="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/imgViewCategory1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp">
+
+                <ImageView
+                    android:id="@+id/imgView1"
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_tab_select" />
+
+                <TextView
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:gravity="center"
+                    android:text="@string/synopsis"
+                    android:layout_alignBottom="@+id/imgView1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/imgViewCategory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp">
+
+                <ImageView
+                    android:id="@+id/imgView2"
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_tab_unselect" />
+
+                <TextView
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:gravity="center"
+                    android:text="@string/episodes"
+                    android:singleLine="true"
+                    android:layout_alignBottom="@+id/imgView2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/linearCategory"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/mainViewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+              />
+
+                    </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+

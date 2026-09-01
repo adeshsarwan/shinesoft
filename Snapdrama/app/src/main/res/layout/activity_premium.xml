@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.setting.GiftsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="Membership"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_26sdp"
+                android:visibility="invisible"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="@string/membership"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/buttonRewardCoins"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:text="@string/reward_coins"
+                    android:background="@drawable/background_login_button"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/buttonMemberCoins"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:text="@string/member_points"
+                    android:background="@drawable/background_selection_premium"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPagerPremium"/>
+
+
+
+
+</LinearLayout>

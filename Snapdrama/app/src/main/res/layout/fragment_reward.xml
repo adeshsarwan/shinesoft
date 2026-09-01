@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.premium.MemberFragment">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_36sdp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="@dimen/_36sdp"
+                    android:src="@drawable/image_fire_icon"/>
+
+
+                <LinearLayout
+                    android:id="@+id/layoutViews"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_13sdp"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:text="Your Streak ( 11 )"
+                        />
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:layout_below="@+id/layoutViews"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:gravity="start"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:maxLines="2"
+
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Days Listened in a row"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+
+                android:background="@drawable/background_reward_coins_rec"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/image_reward_bac_icon"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+
+                        android:gravity="start"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_17sdp"
+                        android:fontFamily="@font/mulish_bold"
+                        android:text="10 Coins"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:gravity="start"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_regular"
+                        android:text="Your Balance"
+                        />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="start"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:singleLine="true"
+
+                android:textSize="@dimen/_13sdp"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="You’ve Checked in For 1 Day!!"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+10"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_recieve"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Today"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+10"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 2"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+20"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 3"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+20"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 4"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+25"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 5"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+30"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 6"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_reward_coins_rec2"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="+50"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+
+                        android:src="@drawable/image_coin_dollar_icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+
+                        android:textStyle="normal"
+
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#7B7B7B"
+                        android:singleLine="true"
+
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:text="Day 7"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:gravity="center"
+                android:text="Watch AD to Earn 30 Coins"
+                android:background="@drawable/background_login_button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/mulish_semibold"
+                android:textSize="@dimen/_12sdp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="start"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:singleLine="true"
+
+                android:textSize="@dimen/_13sdp"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="Earn Rewards"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_login"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Login with any Account"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+60 Reward Coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Claim"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_notification"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Turn Push Notification"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:singleLine="true"
+
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+60 Reward Coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Claim"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_notification"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Earn Rewards (0/30)"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:singleLine="true"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="Watch a video to earn 20 coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Claim"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_instagram"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Follow us on Instagram"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+50 Reward coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_17sdp"
+                        android:text="Folllow"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_youtube"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Follow us on YouTube"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+60 Reward coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Folllow"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_facebook"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Follow us on Facebook"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+20 Reward coins"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Claim"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_invite_friends"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Invite Friends"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="Earn up to 500 coins daily"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Claim"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_reward_share_icon"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Share with Friends"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+30 Reward Coin"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Go"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_watch_15_min"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Watch for 5 Mins"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+10 Reward Coin"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Go"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/background_reward_coins_rec"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:src="@drawable/image_watch_15_min"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:singleLine="true"
+
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="Watch for 15 Mins"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:layout_below="@+id/layoutViews"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:gravity="start"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#7B7B7B"
+                            android:maxLines="2"
+
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:text="+20 Reward Coin"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_26sdp"
+                        android:gravity="center"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_20sdp"
+                        android:text="Go"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:background="@drawable/background_login_button"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:textSize="@dimen/_11sdp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

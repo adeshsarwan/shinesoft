@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+android:background="@drawable/background_corner_dialog"
+android:elevation="6dp"
+android:minWidth="200dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:text="@string/speed"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:layout_marginBottom="12dp"
+    android:fontFamily="@font/mulish_semibold" />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginHorizontal="@dimen/_12sdp"
+    android:background="@color/grey_colors"
+    />
+
+
+    <LinearLayout
+        android:id="@+id/menuItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <View
+            android:id="@+id/imageView1"
+            android:layout_width="3dp"
+            android:visibility="invisible"
+            android:background="@color/app_colors"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="@dimen/_17sdp"/>
+    <TextView
+        android:id="@+id/textButton2_0"
+        android:text="2.0x"
+        android:textColor="@color/white"
+        android:paddingVertical="@dimen/_6sdp"
+        android:fontFamily="@font/mulish_semibold"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageRight1"
+            android:layout_width="@dimen/_18sdp"
+            android:visibility="invisible"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+        <View
+            android:id="@+id/imageView2"
+            android:layout_width="3dp"
+            android:visibility="invisible"
+
+            android:background="@color/app_colors"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="@dimen/_17sdp"/>
+
+        <TextView
+            android:id="@+id/textButton1_5"
+            android:fontFamily="@font/mulish_semibold"
+            android:textColor="@color/white"
+
+            android:text="1.5x"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageRight2"
+            android:layout_width="@dimen/_18sdp"
+            android:visibility="invisible"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+        <View
+            android:id="@+id/imageView3"
+            android:layout_width="3dp"
+            android:background="@color/app_colors"
+            android:visibility="invisible"
+
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="@dimen/_17sdp"/>
+
+        <TextView
+            android:id="@+id/textButton1_25"
+            android:fontFamily="@font/mulish_semibold"
+            android:textColor="@color/white"
+
+            android:text="1.25x"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imageRight3"
+            android:layout_width="@dimen/_18sdp"
+            android:visibility="invisible"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+        
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+        <View
+            android:id="@+id/imageView4"
+            android:layout_width="3dp"
+            android:background="@color/app_colors"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="@dimen/_17sdp"/>
+
+        <TextView
+            android:id="@+id/textButton1_0"
+            android:fontFamily="@font/mulish_semibold"
+            android:textColor="@color/white"
+
+            android:text="1.0x (default)"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageRight4"
+            android:layout_width="@dimen/_18sdp"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuItem5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <View
+            android:id="@+id/imageView5"
+            android:layout_width="3dp"
+            android:visibility="invisible"
+
+            android:background="@color/app_colors"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="@dimen/_17sdp"/>
+
+        <TextView
+            android:id="@+id/textButton0_75"
+            android:fontFamily="@font/mulish_semibold"
+            android:textColor="@color/white"
+            android:text="0.75x"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageRight5"
+            android:layout_width="@dimen/_18sdp"
+            android:padding="@dimen/_2sdp"
+            android:visibility="invisible"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menuItem6"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <View
+            android:id="@+id/imageView6"
+            android:layout_width="3dp"
+            android:background="@color/app_colors"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:visibility="invisible"
+            android:layout_height="@dimen/_17sdp"/>
+
+        <TextView
+            android:id="@+id/textButton0_50"
+            android:text="0.50x"
+            android:fontFamily="@font/mulish_semibold"
+            android:textColor="@color/white"
+
+            android:paddingVertical="@dimen/_6sdp"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageRight6"
+            android:layout_width="@dimen/_18sdp"
+            android:visibility="invisible"
+
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/image_check_in_icon"
+            android:adjustViewBounds="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

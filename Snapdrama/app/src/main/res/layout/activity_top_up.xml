@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.setting.GiftsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="Topup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_26sdp"
+                android:visibility="invisible"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/buttonBack"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:src="@drawable/image_back_scn_icon"
+                app:tint="@color/whiteMy" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="@string/topup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/premiumRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coins"
+
+                    android:fontFamily="@font/mulish_semibold"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_13sdp" />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5sdp" />
+
+
+            <GridLayout
+                android:id="@+id/gridCoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:useDefaultMargins="true">
+
+
+
+                <RelativeLayout
+                    android:id="@+id/pack1"
+                    android:layout_columnWeight="1"
+                    android:background="@drawable/bg_coin_card"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:layout_alignParentEnd="true"
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:fontFamily="@font/figtree_medium"
+                        android:background="@drawable/bg_time_limited_tag"
+                        android:text="@string/time_limit_offer"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:padding="@dimen/_2sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="@dimen/_20sdp"
+                            android:adjustViewBounds="true"
+
+                            android:src="@drawable/image_coin_dollar_icon"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/textViewMainCoin1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="100"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/_14sdp"
+                                    />
+                                <TextView
+                                    android:id="@+id/textViewExtraCoin1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" + 400"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="#7B7B7B"
+                                    android:textSize="@dimen/_11sdp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textPrice1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:fontFamily="@font/figtree_medium"
+                                android:text="₹ 99.00"
+                                android:textColor="#7B7B7B"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pack2"
+                    android:layout_columnWeight="1"
+                    android:background="@drawable/bg_coin_card"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:visibility="invisible"
+                        android:layout_alignParentEnd="true"
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:fontFamily="@font/figtree_medium"
+                        android:background="@drawable/bg_time_limited_tag"
+                        android:text="@string/time_limit_offer"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_gravity="center_vertical"
+                            android:padding="@dimen/_2sdp"
+
+                            android:layout_height="@dimen/_20sdp"
+                            android:adjustViewBounds="true"
+
+                            android:src="@drawable/image_coin_dollar_icon"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/textViewMainCoin2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="200"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/_14sdp"
+                                    />
+                                <TextView
+                                    android:id="@+id/textViewExtraCoin2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" + 400"
+                                    android:singleLine="true"
+                                    android:visibility="invisible"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="#7B7B7B"
+                                    android:textSize="@dimen/_11sdp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textPrice2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:fontFamily="@font/figtree_medium"
+                                android:text="₹ 199.00"
+                                android:textColor="#7B7B7B"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!-- Coin pack 3 -->
+                <RelativeLayout
+                    android:id="@+id/pack3"
+                    android:layout_columnWeight="1"
+                    android:background="@drawable/bg_coin_card"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:fontFamily="@font/figtree_medium"
+                        android:background="@drawable/bg_time_limited_tag"
+                        android:text="@string/time_limit_offer"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_gravity="center_vertical"
+                            android:padding="@dimen/_2sdp"
+
+                            android:layout_height="@dimen/_20sdp"
+                            android:adjustViewBounds="true"
+
+                            android:src="@drawable/image_coin_dollar_icon"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+
+                                    android:id="@+id/textViewMainCoin3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="500"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/_14sdp"
+                                    />
+                                <TextView
+                                    android:id="@+id/textViewExtraCoin3"
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" + 50"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="#7B7B7B"
+                                    android:textSize="@dimen/_11sdp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textPrice3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:fontFamily="@font/figtree_medium"
+                                android:text="₹ 480.00"
+                                android:textColor="#7B7B7B"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pack4"
+                    android:layout_columnWeight="1"
+                    android:background="@drawable/bg_coin_card"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:fontFamily="@font/figtree_medium"
+                        android:background="@drawable/bg_time_limited_tag"
+                        android:text="@string/time_limit_offer"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_gravity="center_vertical"
+                            android:padding="@dimen/_2sdp"
+
+                            android:layout_height="@dimen/_20sdp"
+                            android:adjustViewBounds="true"
+
+                            android:src="@drawable/image_coin_dollar_icon"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/textViewMainCoin4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1200"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/_14sdp"
+                                    />
+                                <TextView
+                                    android:id="@+id/textViewExtraCoin4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" + 150"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/figtree_semibold"
+                                    android:textColor="#7B7B7B"
+                                    android:textSize="@dimen/_11sdp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textPrice4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:fontFamily="@font/figtree_medium"
+                                android:text="₹ 950.00"
+                                android:textColor="#7B7B7B"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/membership"
+                android:layout_marginTop="@dimen/_3sdp"
+
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:fontFamily="@font/mulish_semibold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_13sdp" />
+
+
+            <RelativeLayout
+                android:id="@+id/relativeWeeklyMemberShip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/background_premium_base"/>
+                <TextView
+                    android:id="@+id/textWeeklyMemberShipTimeOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingHorizontal="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:background="@drawable/bg_time_limited_tag"
+                    android:text="Limited Time 00:48:07"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_8sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:gravity="start"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="@string/weekly_membership"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_13sdp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvWeeklyMemberShip1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/mulish_bold"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_15sdp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvWeeklyMemberShip2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:textColor="#88FFFFFF"
+                            android:textSize="@dimen/_10sdp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvWeeklyMemberTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:singleLine="true"
+                        android:fontFamily="@font/mulish_medium"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="● "
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_8sdp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="@string/auto_renew"
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="● "
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_8sdp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="@string/cancel_anytime"
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                    </LinearLayout>
+
+                    <!-- Features row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:weightSum="4">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:gravity="start"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_unlimited_views"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/unlimited_time"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+
+                                android:gravity="start"
+
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_downloader"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/download"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_1080_quality"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/_1080_quality"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:gravity="start"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_point_units"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/daily_points_reward"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_7sdp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeYearlyMemberShip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/background_premium_base"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:gravity="start"
+                            android:fontFamily="@font/mulish_semibold"
+                            android:text="@string/yearly_membership"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_13sdp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvYearlyMemberShip1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/mulish_bold"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_15sdp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvYearlyMemberShip2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_2sdp"
+                            android:fontFamily="@font/mulish_medium"
+                            android:textColor="#88FFFFFF"
+                            android:textSize="@dimen/_10sdp"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="● "
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_8sdp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="@string/auto_renew"
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="● "
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_8sdp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:fontFamily="@font/figtree_semibold"
+                            android:singleLine="true"
+                            android:text="@string/cancel_anytime"
+                            android:textColor="#DDFFFFFF"
+                            android:textSize="@dimen/_9sdp" />
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvYearlyMemberTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/mulish_medium"
+                        android:visibility="invisible"
+                        android:text="@string/premium_value"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <!-- Features row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:weightSum="4">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:gravity="start"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_unlimited_views"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/unlimited_time"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+
+                                android:gravity="start"
+
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_downloader"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/download"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="start"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_1080_quality"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/_1080_quality"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="@dimen/_6sdp"
+                                android:gravity="start"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:src="@drawable/image_prime_point_units"
+                                    android:tint="@android:color/white" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/daily_points_reward"
+                                    android:singleLine="true"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:textColor="#DDFFFFFF"
+                                    android:textSize="@dimen/_10sdp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <com.snapdrama.shortstream.ads.SmallNativeViewAds
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

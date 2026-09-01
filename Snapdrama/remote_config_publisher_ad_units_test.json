@@ -1,0 +1,86 @@
+{
+  "publisher_ad_units_manage": {
+    "publisher_AppOpen_Ad_Id": [
+      "ca-app-pub-3940256099942544/9257395921"
+    ],
+    "publisher_Native_Ad_Id": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "publisher_Interstitial_Ad_Id": [
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "publisher_Banner_Ad_Id": [
+      "ca-app-pub-3940256099942544/9214589741"
+    ],
+    "publisher_Reward_Ad_Id": [
+      "ca-app-pub-3940256099942544/5224354917"
+    ],
+    "splash_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "splash_native_old": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "splash_inter": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "splash_inter_old": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "lfo1_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo1_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "lfo2_native_3": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_1_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_1_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_2_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_2_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_3_native_3": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_4_native": [
+      "ca-app-pub-3940256099942544/2247696110",
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "onboard_4_native_2": [
+      "ca-app-pub-3940256099942544/2247696110"
+    ],
+    "inter_onboard": [
+      "ca-app-pub-3940256099942544/1033173712",
+      "ca-app-pub-3940256099942544/1033173712"
+    ],
+    "splash_ads_show_type": "Inter",
+    "home_new_native_ads_positions": 5,
+    "home_ranking_native_ads_position": 5
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.main.fragment.MyListFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/imgViewCategory1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp">
+
+                <ImageView
+                    android:id="@+id/imgView1"
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_tab_select" />
+
+                <TextView
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:gravity="center"
+                    android:text="@string/my_list"
+                    android:layout_alignBottom="@+id/imgView1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/imgViewCategory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp">
+
+                <ImageView
+                    android:id="@+id/imgView2"
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_tab_unselect" />
+
+                <TextView
+                    android:layout_width="@dimen/_82sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:gravity="center"
+                    android:layout_alignBottom="@+id/imgView2"
+                    android:text="@string/history"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+<androidx.viewpager.widget.ViewPager
+    android:id="@+id/viewPagerMyList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

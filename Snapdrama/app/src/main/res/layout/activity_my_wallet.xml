@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.setting.GiftsActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/image_back_scn_icon"
+            app:tint="@color/whiteMy" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/mulish_semibold"
+            android:gravity="center"
+            android:text="@string/my_wallet"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/image_back_scn_icon"
+            android:visibility="invisible"
+            app:tint="@color/whiteMy" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_episode_num"
+                    android:drawablePadding="12dp"
+                    android:fontFamily="@font/mulish_medium"
+                    android:gravity="center"
+                    android:hint="Enter your mobile number"
+                    android:inputType="phone"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_11sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_6sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:gravity="center"
+                        android:text="@string/coins"
+                        android:textColor="@color/grey_colors"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/tvBalanceValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/mulish_semibold"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:gravity="center"-->
+                <!--                    android:layout_marginEnd="@dimen/_10sdp"-->
+                <!--                    android:layout_marginTop="@dimen/_5sdp"-->
+                <!--                    android:hint="Enter your mobile number"-->
+                <!--                    android:textColor="@color/white"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:textSize="@dimen/_13sdp"-->
+                <!--                    android:paddingHorizontal="@dimen/_10sdp"-->
+                <!--                    android:paddingVertical="@dimen/_11sdp"-->
+                <!--                    android:fontFamily="@font/mulish_medium"-->
+                <!--                    android:inputType="phone"-->
+                <!--                    android:drawablePadding="12dp"-->
+                <!--                    android:background="@drawable/background_episode_num">-->
+
+                <!--                    <TextView-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginHorizontal="@dimen/_10sdp"-->
+                <!--                        android:layout_marginVertical="@dimen/_6sdp"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:fontFamily="@font/mulish_semibold"-->
+                <!--                        android:text="Reward Coins"-->
+                <!--                        android:textColor="@color/grey_colors"-->
+                <!--                        android:textSize="@dimen/_12sdp"-->
+                <!--                        android:textStyle="normal" />-->
+                <!--                    <TextView-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginHorizontal="@dimen/_10sdp"-->
+                <!--                        android:layout_marginVertical="@dimen/_2sdp"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:fontFamily="@font/mulish_semibold"-->
+                <!--                        android:text="20"-->
+                <!--                        android:textColor="@color/white"-->
+                <!--                        android:textSize="@dimen/_15sdp"-->
+                <!--                        android:textStyle="normal" />-->
+
+
+                <!--                </LinearLayout>-->
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btnTopupCoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_login_button"
+                android:fontFamily="@font/mulish_semibold"
+                android:gravity="center"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="@string/top_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:id="@+id/imageTransactionHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/background_logout"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/image_transaction_history_icon"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_logout"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:singleLine="true"
+                    android:text="@string/transaction_history"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal" />
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_arrow_right"
+                    android:tint="@color/white"
+                    android:padding="@dimen/_4sdp"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image_reward_coin"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/buttonConsumptionRecords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/background_logout"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/image_consumation_icon"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_logout"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:singleLine="true"
+                    android:text="@string/consumption_records"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal" />
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_arrow_right"
+                    android:tint="@color/white"
+                    android:padding="@dimen/_4sdp"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.snapdrama.shortstream.ads.MediumNativeViewAds
+        android:id="@+id/nativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

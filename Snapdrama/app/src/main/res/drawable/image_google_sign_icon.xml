@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+  <group>
+    <clip-path
+        android:pathData="M0,0h40v40h-40z"/>
+    <path
+        android:pathData="M8.865,24.173L7.472,29.371L2.384,29.478C0.863,26.657 0,23.43 0,20C0,16.684 0.807,13.556 2.236,10.802H2.237L6.768,11.633L8.753,16.137C8.337,17.348 8.111,18.648 8.111,20C8.111,21.468 8.377,22.875 8.865,24.173Z"
+        android:fillColor="#FBBB00"/>
+    <path
+        android:pathData="M39.65,16.264C39.88,17.474 40,18.723 40,20C40,21.432 39.849,22.829 39.562,24.176C38.589,28.761 36.045,32.764 32.521,35.597L32.52,35.596L26.813,35.305L26.005,30.263C28.344,28.891 30.171,26.745 31.134,24.176H20.44V16.264H31.29H39.65Z"
+        android:fillColor="#518EF8"/>
+    <path
+        android:pathData="M32.519,35.595L32.52,35.597C29.093,38.351 24.739,40 19.999,40C12.383,40 5.761,35.743 2.383,29.478L8.864,24.172C10.553,28.68 14.901,31.889 19.999,31.889C22.191,31.889 24.243,31.296 26.005,30.262L32.519,35.595Z"
+        android:fillColor="#28B446"/>
+    <path
+        android:pathData="M32.766,4.604L26.287,9.909C24.464,8.769 22.309,8.111 20,8.111C14.787,8.111 10.357,11.467 8.753,16.136L2.237,10.802H2.236C5.565,4.385 12.27,0 20,0C24.853,0 29.302,1.729 32.766,4.604Z"
+        android:fillColor="#F14336"/>
+  </group>
+</vector>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- rocket body outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="3"
+        android:pathData="M48,18 C58,28 62,42 58,58 L48,72 L38,58 C34,42 38,28 48,18 Z" />
+
+    <!-- window -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="2.5"
+        android:pathData="M48,36 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" />
+
+    <!-- fins -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M38,56 L28,68" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M58,56 L68,68" />
+
+    <!-- motion lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,78 L36,88" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,80 L48,90" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E9325A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,78 L60,88" />
+</vector>

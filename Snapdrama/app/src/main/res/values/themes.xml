@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShortDramaReels" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#240B12</item>
+        <item name="colorAccent">#00000000</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#240B12</item>
+        <item name="colorAccent">#00000000</item>
+        <!-- STATUS BAR -->
+
+        <!-- SYSTEM BOTTOM NAVIGATION -->
+        <item name="android:navigationBarColor">#161616</item>
+
+        <!-- ICONS MUST BE WHITE -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- REMOVE GREY OVERLAY (API 29+) -->
+        <item name="android:enforceNavigationBarContrast">false</item>
+
+        <item name="android:windowBackground">@color/black</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+<!--    <style name="Theme.ShortDramaReels" parent="Base.Theme.ShortDramaReels" />-->
+
+    <style name="TransparentBottomSheetDialog"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/TransparentBottomSheetStyle</item>
+    </style>
+
+    <style name="TransparentBottomSheetStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="CustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:fontFamily">@font/mulish_semibold</item>
+        <item name="textAllCaps">false</item><!-- font in res/font -->
+    </style>
+    <style name="BodySmallSemiBold" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/mulish_semibold</item>
+    </style>
+    <style name="Theme.MyApp.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.StripePaymentDemo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.StripePaymentDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Ads" parent="@style/AdsAppTheme">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/ads_icon</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">15px</item>
+        <item name="android:minHeight">15px</item>
+        <item name="android:text">Ad</item>
+    </style>
+    <style name="AdsAppTheme" parent="@style/Theme.AppCompat.DayNight">
+    </style>
+
+</resources>

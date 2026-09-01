@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/background_new_list"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/image_background_new"/>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:elevation="0dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:id="@+id/mainLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageSeries"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop" />
+
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/relativeDesc"
+            android:layout_toStartOf="@+id/stickerView"
+            android:layout_toEndOf="@+id/cardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp"
+                android:fontFamily="@font/mulish_semibold"
+                android:text="I love your fiancé's uncle"
+                />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_below="@id/textView1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="start"
+                android:maxLines="2"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:textColor="#8E8C8C"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/mulish_medium"
+                android:text="She is forced to become engaged to a fool to save her mother and ends up..."
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleViewCategory"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:layout_below="@id/textView2"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/stickerView"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/stickLayout"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/image_ranking_poster"/>
+
+                <com.snapdrama.shortstream.utils.GradientTextView
+                    android:id="@+id/gradiantTextView"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mulish_bold"
+                    android:layout_centerInParent="true"
+                    android:text="1"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_below="@id/stickLayout"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:padding="@dimen/_3sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image_fire_icon"/>
+                <TextView
+                    android:id="@+id/textViewTotalView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:gravity="start"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/mulish_semibold"
+                    android:text="2.9 M"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
