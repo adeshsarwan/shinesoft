@@ -1,0 +1,25 @@
+# Build
+build/
+
+# Dart tool
+.dart_tool/
+
+# Flutter generated
+.flutter-plugins-dependencies
+
+# Android / Gradle
+android/.gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+gradle-wrapper.jar
+**/captures/
+GeneratedPluginRegistrant.java
+.cxx/
+.idea/
+
+# IDE (optional - remove if you want to commit launch configs)
+.vscode/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227376853942",
+    "project_id": "snapdock-8c489",
+    "storage_bucket": "snapdock-8c489.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227376853942:android:e3b4bfe380d66e87604717",
+        "android_client_info": {
+          "package_name": "com.snapdock.videodownloader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmvS6gfwaF-Q3_WyT7REgnJx2L_bltz8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
