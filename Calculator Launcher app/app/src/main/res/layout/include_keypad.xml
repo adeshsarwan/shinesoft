@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignMargins"
+    android:columnCount="4"
+    android:padding="8dp"
+    android:useDefaultMargins="false">
+
+    <TextView
+        android:id="@+id/key7"
+        style="@style/KeyButton"
+        android:text="7" />
+
+    <TextView
+        android:id="@+id/key8"
+        style="@style/KeyButton"
+        android:text="8" />
+
+    <TextView
+        android:id="@+id/key9"
+        style="@style/KeyButton"
+        android:text="9" />
+
+    <ImageView
+        android:id="@+id/keyBackspace"
+        style="@style/KeyButton.Danger"
+        android:contentDescription="@string/back"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_backspace" />
+
+    <TextView
+        android:id="@+id/key4"
+        style="@style/KeyButton"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/key5"
+        style="@style/KeyButton"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/key6"
+        style="@style/KeyButton"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/keyClear"
+        style="@style/KeyButton.Danger"
+        android:text="@string/clear"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/key1"
+        style="@style/KeyButton"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/key2"
+        style="@style/KeyButton"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/key3"
+        style="@style/KeyButton"
+        android:text="3" />
+
+    <ImageView
+        android:id="@+id/keyUp"
+        style="@style/KeyButton.Nav"
+        android:contentDescription="@null"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_arrow_up" />
+
+    <TextView
+        android:id="@+id/keySign"
+        style="@style/KeyButton"
+        android:text="@string/plus_minus" />
+
+    <TextView
+        android:id="@+id/key0"
+        style="@style/KeyButton"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/keyDot"
+        style="@style/KeyButton"
+        android:text="@string/dot" />
+
+    <ImageView
+        android:id="@+id/keyDown"
+        style="@style/KeyButton.Nav"
+        android:contentDescription="@null"
+        android:padding="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_arrow_down" />
+</GridLayout>

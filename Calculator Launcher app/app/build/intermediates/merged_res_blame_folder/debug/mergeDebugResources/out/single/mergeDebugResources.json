@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_shield.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_shield.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_bmi.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_bmi.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_bottom_sheet_revert.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/bottom_sheet_revert.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_mortgage.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_mortgage.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_bottom_sheet.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_unit.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_unit.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_info.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_mortgage_calculator.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_mortgage_calculator.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_include_ad_banner.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/include_ad_banner.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_radio_on.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_radio_on.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_customize_home.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_customize_home.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_bmi_calculator.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_bmi_calculator.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_orange.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_orange.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_key_op.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_key_op.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_bmi_scale.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_bmi_scale.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_key_danger.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_key_danger.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_tool_grid.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_tool_grid.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_currency_card_active.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_currency_card_active.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_history.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_history.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_splash.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_ad_banner.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_ad_banner.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_search_engine.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_search_engine.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_splash_progress.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_splash_progress.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_customize_app.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_customize_app.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_home_tooltip.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_home_tooltip.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_customize_apps.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_customize_apps.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_key_number.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_key_number.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_fragment_calculators.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/fragment_calculators.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_calc_quad.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_calc_quad.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_bottom_nav.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_bottom_nav.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_radio_off.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_radio_off.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_tip_calculator.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_tip_calculator.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_btn_select_all.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_btn_select_all.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_input_focus.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_input_focus.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_teal.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_teal.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_nav_grid.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_nav_grid.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_home_weather_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_home_weather_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_add_currency.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_add_currency.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_back.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_tip.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_tip.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_nav_pill.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_nav_pill.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_loan_calculator.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_loan_calculator.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_compound.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_compound.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_tool_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_tool_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_result_box.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_result_box.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/layout_activity_wallpaper_discover.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/layout/activity_wallpaper_discover.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_onboarding.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_home_pick_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_home_pick_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_fragment_apps.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/fragment_apps.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_launcher_settings.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_launcher_settings.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_currency_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_currency_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_mail.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_mail.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/drawable_bg_wallpaper_card.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/drawable/bg_wallpaper_card.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_fragment_basic.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/fragment_basic.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_menu_dark.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_menu_dark.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_info.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_currency_row.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_currency_row.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_backspace.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_backspace.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_btn_revert.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_btn_revert.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_fragment_home_screen.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/fragment_home_screen.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_customize_tile_selected.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_customize_tile_selected.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_blue.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_blue.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_key_equals.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_key_equals.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_compound_interest.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_compound_interest.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_customize_tile.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_customize_tile.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/drawable_bg_wallpaper_label.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/drawable/bg_wallpaper_label.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_launcher_wallpaper.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_launcher_wallpaper.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_speech_bubble.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_speech_bubble.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_icon_circle.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_icon_circle.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_close_white.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_close_white.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_launcher_home.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_launcher_home.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_apps_search.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_apps_search.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_pink.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_pink.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_reset.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_reset.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_currency.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_currency.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_settings_icon_green.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_settings_icon_green.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_key_nav.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_key_nav.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_include_keypad.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/include_keypad.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/drawable_bg_wallpaper_ad.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/drawable/bg_wallpaper_ad.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_dropdown.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_dropdown.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_back_white.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_back_white.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_chevron_right.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_tab_active.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_tab_active.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_customize_search.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_customize_search.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_page_dot.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_page_dot.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_history.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_convert_card.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_convert_card.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/layout_item_wallpaper_category.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/layout/item_wallpaper_category.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_input_box.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_input_box.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_arrow_up.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_home_search.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_home_search.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_calculate_btn.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_calculate_btn.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_include_toolbar_back.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/include_toolbar_back.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_currency_converter.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_currency_converter.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_tab_inactive.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_tab_inactive.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_nav_home.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_unit_converter.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_unit_converter.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_flag_circle.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_flag_circle.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_onboarding.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_onboarding.xml"
+    },
+    {
+        "merged": "com.calculatorlauncher.app-debug-4:/drawable_bg_unsplash_badge.xml.flat",
+        "source": "com.calculatorlauncher.app-main-6:/drawable/bg_unsplash_badge.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_home_app.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_home_app.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_tool_loan.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_tool_loan.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_bg_btn_continue.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/bg_btn_continue.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_history_row.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_history_row.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_activity_about_menu.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/activity_about_menu.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/layout_item_app_icon.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/layout/item_app_icon.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_settings_tile.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_settings_tile.xml"
+    },
+    {
+        "merged": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-debug-4:/drawable_ic_arrow_down.xml.flat",
+        "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/daemon/8.11.1/com.calculatorlauncher.app-main-6:/drawable/ic_arrow_down.xml"
+    }
+]

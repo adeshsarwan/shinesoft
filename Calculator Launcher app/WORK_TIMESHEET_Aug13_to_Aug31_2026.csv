@@ -1,0 +1,24 @@
+Calculator Launcher App — Daily Work Log (8 Hours/Day | Mon–Fri)
+Period: 13/08/2026 to 31/08/2026
+
+Date,Day,Hours,Tasks Completed,Status
+13/08/2026,Thursday,8,"Project setup (Gradle/Manifest). Calculator Launcher XML UI — main screen keypad display bottom nav. 7 tool screens (BMI Tip Loan Mortgage Compound Currency Unit). Themes colors drawables strings. First debug build and device run.",Done
+14/08/2026,Friday,8,"UI polish to match Play Store reference app. Equal-height tool cards on calculators page. Layout spacing and color consistency. Screen navigation review across all tools.",Done
+17/08/2026,Monday,8,"Calculator running-total logic (27 stays then -12 from total). Tip split dropdown max 10. BMI calculator + dropdown fix. Mortgage calculator + dropdown fix.",Done
+18/08/2026,Tuesday,8,"Loan and Compound Interest calculators + dropdowns. Currency converter live rates date/time add currency USD-INR default. Side drawer Help FAQs Privacy. History screen. Git commit: new flow and calculation added.",Done
+19/08/2026,Wednesday,8,"Launcher mode Phase 1 with comment toggles (LauncherConfig). SplashActivity LauncherHomeActivity AppsFragment AppLoader. SetDefaultLauncherHelper for default home. Hide/show launcher test on MI device.",Done
+20/08/2026,Thursday,8,"Calculator page revert restore working logic. InfoActivity for Help Privacy Terms. Debug APK build. Full QA all 7 calculators currency and history on phone.",Done
+21/08/2026,Friday,8,"Unit Converter From/To dropdowns with multi-unit data (length weight temp etc). NumberInput.kt unit formulas. Layout and binding fixes. Unit conversion QA.",Done
+24/08/2026,Monday,8,"Calculator + launcher integration. ToolsConfig toggle. Manifest HOME DEFAULT LAUNCHER intent filters. Debug APK for share. Launcher enable/disable documentation.",Done
+25/08/2026,Tuesday,8,"MI-style home screen (weather card search dock page dots). CustomizeAppsActivity + HomeAppsStore. Onboarding flow (loading intro default-home picker). OnboardingPrefs.",Done
+26/08/2026,Wednesday,8,"LauncherSettingsActivity dark settings. SearchEngineActivity (Google Bing Yahoo). AboutMenuActivity + revert bottom sheet. Vertical swipe-up app drawer ViewPager2 + NestedScrollableHost.",Done
+27/08/2026,Thursday,8,"All apps list fix (QUERY_ALL_PACKAGES AppLoader). System wallpaper on home. Swipe-up gesture improvements. WallpaperDiscoverActivity (Nature Seascapes Space City). Git commit launcher mode. Debug APK.",Done
+28/08/2026,Friday,8,"End-to-end launcher QA (onboarding home apps settings search). Settings Customize Calculator tile fixes. Wallpaper Settings flow + SET_WALLPAPER permission. MIUI device testing.",Done
+31/08/2026,Monday,8,"Final debug APK build (7.2 MB). Work timesheet documentation. Project status review and pending items list.",Done
+
+SUMMARY
+Total Working Days,13
+Total Hours,104
+Weekends Off,"15-16 Aug | 22-23 Aug | 29-30 Aug"
+Git Commits,"13 Aug: Initial + project setup | 18 Aug: new flow and calculation | 27 Aug: launcher mode + unit converter"
+APK Path,app/build/outputs/apk/debug/app-debug.apk

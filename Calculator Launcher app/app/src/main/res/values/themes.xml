@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CalculatorLauncher" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- Shows phone's own wallpaper behind launcher (MI default look) -->
+    <style name="Theme.LauncherHome" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#66000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="KeyButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:background">@drawable/bg_key_number</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="KeyButton.Op">
+        <item name="android:background">@drawable/bg_key_op</item>
+        <item name="android:textColor">@color/text_green</item>
+    </style>
+
+    <style name="KeyButton.Danger">
+        <item name="android:background">@drawable/bg_key_danger</item>
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+
+    <style name="KeyButton.Nav">
+        <item name="android:background">@drawable/bg_key_nav</item>
+        <item name="android:textColor">@color/text_green</item>
+    </style>
+
+    <style name="KeyButton.Equals">
+        <item name="android:background">@drawable/bg_key_equals</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="CategoryTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">14dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:background">@drawable/bg_tab_inactive</item>
+    </style>
+
+    <style name="CategoryTab.Active">
+        <item name="android:textColor">@color/text_green</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_tab_active</item>
+    </style>
+
+    <style name="FieldLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="InputBox">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/bg_input_box</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ResultBox">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/bg_result_box</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:textColor">@color/text_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SettingsRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingHorizontal">14dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SettingsRowText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SettingsDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">64dp</item>
+        <item name="android:background">#2A2A2A</item>
+    </style>
+
+    <style name="AboutMenuRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:drawableEnd">@drawable/ic_chevron_right</item>
+    </style>
+    <style name="Theme.SearchEngineDialog" parent="Theme.Material3.Dark.Dialog.Alert">
+        <item name="colorPrimary">@color/install_blue</item>
+        <item name="android:background">#2A2A2A</item>
+    </style>
+</resources>

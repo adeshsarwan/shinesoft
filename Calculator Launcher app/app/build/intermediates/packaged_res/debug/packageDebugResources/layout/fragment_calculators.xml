@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="false">
+
+    <GridLayout
+        android:id="@+id/toolsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignBounds"
+        android:columnCount="3"
+        android:padding="10dp"
+        android:useDefaultMargins="false">
+
+        <include
+            android:id="@+id/cardTip"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardUnit"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardBmi"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardMortgage"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardLoan"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardCompound"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+
+        <include
+            android:id="@+id/cardCurrency"
+            layout="@layout/item_tool_grid"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="6dp" />
+    </GridLayout>
+</androidx.core.widget.NestedScrollView>

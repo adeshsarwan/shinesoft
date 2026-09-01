@@ -1,0 +1,353 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.calculatorlauncher.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+13-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:6:5-72
+13-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:6:22-69
+14    <!-- LAUNCHER_MODE_START: list all installed apps in drawer -->
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+15-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:8:5-77
+15-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:8:22-74
+16    <!-- LAUNCHER_MODE_END -->
+17
+18
+19    <!-- LAUNCHER_MODE_START: needed to list installed apps on Android 11+ -->
+20    <queries>
+20-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:12:5-17:15
+21        <intent>
+21-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:13:9-16:18
+22            <action android:name="android.intent.action.MAIN" />
+22-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:13-65
+22-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:21-62
+23
+24            <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:15:13-73
+24-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:15:23-70
+25        </intent>
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+29        android:name="com.calculatorlauncher.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.calculatorlauncher.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- LAUNCHER_MODE_END -->
+32-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+33    <application
+33-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:20:5-156:19
+34        android:allowBackup="true"
+34-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:21:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.15.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/04a50db01a75948e7d21abb901016fbb/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@drawable/ic_launcher"
+38-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:22:9-45
+39        android:label="@string/app_name"
+39-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:23:9-41
+40        android:roundIcon="@drawable/ic_launcher"
+40-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:24:9-50
+41        android:supportsRtl="true"
+41-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:25:9-35
+42        android:theme="@style/Theme.CalculatorLauncher"
+42-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:26:9-56
+43        android:usesCleartextTraffic="false" >
+43-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:27:9-45
+44
+45        <!--
+46        CALCULATOR_ONLY_START: uncomment this block and comment LAUNCHER_MODE block to disable launcher
+47        <activity
+48            android:name=".MainActivity"
+49            android:exported="true"
+50            android:screenOrientation="portrait"
+51            android:theme="@style/Theme.CalculatorLauncher">
+52            <intent-filter>
+53                <action android:name="android.intent.action.MAIN" />
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        CALCULATOR_ONLY_END
+58        -->
+59
+60
+61        <!-- LAUNCHER_MODE_START: comment this entire block to disable phone launcher -->
+62        <activity
+62-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:43:9-52:20
+63            android:name="com.calculatorlauncher.app.launcher.SplashActivity"
+63-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:44:13-52
+64            android:exported="true"
+64-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:45:13-36
+65            android:screenOrientation="portrait"
+65-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:46:13-49
+66            android:theme="@style/Theme.CalculatorLauncher" >
+66-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:47:13-60
+67            <intent-filter>
+67-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:48:13-51:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:13-65
+68-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:21-62
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:15:13-73
+70-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:15:23-70
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:54:9-58:63
+74            android:name="com.calculatorlauncher.app.launcher.OnboardingActivity"
+74-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:55:13-56
+75            android:exported="false"
+75-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:56:13-37
+76            android:screenOrientation="portrait"
+76-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:57:13-49
+77            android:theme="@style/Theme.CalculatorLauncher" />
+77-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:58:13-60
+78        <activity
+78-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:60:9-73:20
+79            android:name="com.calculatorlauncher.app.launcher.LauncherHomeActivity"
+79-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:61:13-58
+80            android:clearTaskOnLaunch="true"
+80-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:62:13-45
+81            android:exported="true"
+81-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:63:13-36
+82            android:launchMode="singleTask"
+82-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:64:13-44
+83            android:screenOrientation="portrait"
+83-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:65:13-49
+84            android:stateNotNeeded="true"
+84-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:66:13-42
+85            android:theme="@style/Theme.LauncherHome" >
+85-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:67:13-54
+86            <intent-filter>
+86-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:68:13-72:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:13-65
+87-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:14:21-62
+88
+89                <category android:name="android.intent.category.HOME" />
+89-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:70:17-73
+89-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:70:27-70
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:71:17-76
+90-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:71:27-73
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:75:9-79:63
+94            android:name="com.calculatorlauncher.app.launcher.SearchEngineActivity"
+94-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:76:13-58
+95            android:exported="false"
+95-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:77:13-37
+96            android:screenOrientation="portrait"
+96-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:78:13-49
+97            android:theme="@style/Theme.CalculatorLauncher" />
+97-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:79:13-60
+98        <activity
+98-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:81:9-85:63
+99            android:name="com.calculatorlauncher.app.launcher.WallpaperDiscoverActivity"
+99-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:82:13-63
+100            android:exported="false"
+100-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:83:13-37
+101            android:screenOrientation="portrait"
+101-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:84:13-49
+102            android:theme="@style/Theme.CalculatorLauncher" />
+102-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:85:13-60
+103        <activity
+103-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:87:9-91:63
+104            android:name="com.calculatorlauncher.app.launcher.CustomizeAppsActivity"
+104-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:88:13-59
+105            android:exported="false"
+105-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:89:13-37
+106            android:screenOrientation="portrait"
+106-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:90:13-49
+107            android:theme="@style/Theme.CalculatorLauncher" />
+107-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:91:13-60
+108        <activity
+108-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:93:9-97:63
+109            android:name="com.calculatorlauncher.app.launcher.LauncherSettingsActivity"
+109-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:94:13-62
+110            android:exported="false"
+110-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:95:13-37
+111            android:screenOrientation="portrait"
+111-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:96:13-49
+112            android:theme="@style/Theme.CalculatorLauncher" />
+112-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:97:13-60
+113        <activity
+113-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:99:9-103:63
+114            android:name="com.calculatorlauncher.app.launcher.AboutMenuActivity"
+114-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:100:13-55
+115            android:exported="false"
+115-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:101:13-37
+116            android:screenOrientation="portrait"
+116-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:102:13-49
+117            android:theme="@style/Theme.CalculatorLauncher" />
+117-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:103:13-60
+118        <activity
+118-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:105:9-109:63
+119            android:name="com.calculatorlauncher.app.MainActivity"
+119-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:106:13-41
+120            android:exported="false"
+120-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:107:13-37
+121            android:screenOrientation="portrait"
+121-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:108:13-49
+122            android:theme="@style/Theme.CalculatorLauncher" />
+122-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:109:13-60
+123        <!-- LAUNCHER_MODE_END -->
+124
+125        <activity
+125-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:112:9-115:58
+126            android:name="com.calculatorlauncher.app.ui.HistoryActivity"
+126-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:113:13-47
+127            android:exported="false"
+127-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:114:13-37
+128            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+128-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:115:13-55
+129        <activity
+129-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:117:9-120:58
+130            android:name="com.calculatorlauncher.app.ui.InfoActivity"
+130-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:118:13-44
+131            android:exported="false"
+131-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:119:13-37
+132            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+132-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:120:13-55
+133        <activity
+133-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:122:9-125:58
+134            android:name="com.calculatorlauncher.app.ui.TipCalculatorActivity"
+134-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:123:13-53
+135            android:exported="false"
+135-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:124:13-37
+136            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+136-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:125:13-55
+137        <activity
+137-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:127:9-130:58
+138            android:name="com.calculatorlauncher.app.ui.UnitConverterActivity"
+138-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:128:13-53
+139            android:exported="false"
+139-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:129:13-37
+140            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+140-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:130:13-55
+141        <activity
+141-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:132:9-135:58
+142            android:name="com.calculatorlauncher.app.ui.CurrencyConverterActivity"
+142-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:133:13-57
+143            android:exported="false"
+143-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:134:13-37
+144            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+144-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:135:13-55
+145        <activity
+145-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:137:9-140:58
+146            android:name="com.calculatorlauncher.app.ui.BmiCalculatorActivity"
+146-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:138:13-53
+147            android:exported="false"
+147-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:139:13-37
+148            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+148-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:140:13-55
+149        <activity
+149-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:142:9-145:58
+150            android:name="com.calculatorlauncher.app.ui.MortgageCalculatorActivity"
+150-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:143:13-58
+151            android:exported="false"
+151-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:144:13-37
+152            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+152-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:145:13-55
+153        <activity
+153-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:147:9-150:58
+154            android:name="com.calculatorlauncher.app.ui.LoanCalculatorActivity"
+154-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:148:13-54
+155            android:exported="false"
+155-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:149:13-37
+156            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+156-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:150:13-55
+157        <activity
+157-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:152:9-155:58
+158            android:name="com.calculatorlauncher.app.ui.CompoundInterestActivity"
+158-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:153:13-56
+159            android:exported="false"
+159-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:154:13-37
+160            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+160-->/Users/apple/AndroidStudioProjects/Calculator Launcher App/app/src/main/AndroidManifest.xml:155:13-55
+161
+162        <provider
+162-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+163            android:name="androidx.startup.InitializationProvider"
+163-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+164            android:authorities="com.calculatorlauncher.app.androidx-startup"
+164-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+165            android:exported="false" >
+165-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+166            <meta-data
+166-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+167-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+168                android:value="androidx.startup" />
+168-->[androidx.emoji2:emoji2:1.3.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/24ca809d090882475229cd07b0858eb1/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+169            <meta-data
+169-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/545b3d7497697af29451c39adc410b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+170-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/545b3d7497697af29451c39adc410b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+171                android:value="androidx.startup" />
+171-->[androidx.lifecycle:lifecycle-process:2.6.2] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/545b3d7497697af29451c39adc410b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+172            <meta-data
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+173                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+174                android:value="androidx.startup" />
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+175        </provider>
+176
+177        <receiver
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+178            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+179            android:directBootAware="false"
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+180            android:enabled="true"
+180-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+181            android:exported="true"
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+182            android:permission="android.permission.DUMP" >
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+184                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+185            </intent-filter>
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+187                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+188            </intent-filter>
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+190                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+191            </intent-filter>
+192            <intent-filter>
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+193                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] /private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/ed820f837534615f16c6780733318536/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+194            </intent-filter>
+195        </receiver>
+196    </application>
+197
+198</manifest>

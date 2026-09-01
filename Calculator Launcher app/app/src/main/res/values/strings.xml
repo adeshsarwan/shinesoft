@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator Launcher</string>
+    <string name="nav_basic">Basic</string>
+    <string name="nav_calculators">Calculators</string>
+    <string name="history">History</string>
+    <string name="clear_history">Clear All</string>
+    <string name="clear_history_confirm">Delete all calculation history?</string>
+    <string name="history_empty">No calculations yet.\nComplete a calculation with = to save history.</string>
+    <string name="menu">Menu</string>
+    <string name="drawer_subtitle">All calculators in one place</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_faqs">FAQs</string>
+    <string name="menu_privacy">Privacy Policy</string>
+
+    <string name="help_content">Welcome to Calculator Launcher.\n\n• Use the Basic tab for everyday calculations.\n• Open the Calculators tab for Tip, Unit, BMI, Mortgage, Loan, Compound Interest, and Currency tools.\n• Each tool uses the on-screen keypad — tap a field, then enter values.\n• Use dropdowns where available to pick options like years, units, or currencies.\n\nNeed more help? Check FAQs from the side menu.</string>
+
+    <string name="faqs_content">Q: Why does my home screen look different?\nA: Some calculator launcher apps can change the default home app. You can switch back from your phone Settings → Apps → Default apps → Home app.\n\nQ: How do I clear a calculation?\nA: Tap C on the keypad, or Reset on Mortgage.\n\nQ: Can I add more currencies?\nA: Yes. Open Currency Converter and tap + Add Currency.\n\nQ: Is BMI medical advice?\nA: No. BMI is for general information only, not medical guidance.\n\nQ: Are exchange rates live?\nA: Rates shown are sample/offline rates for conversion preview.</string>
+
+    <string name="privacy_content">Privacy Policy\n\nCalculator Launcher respects your privacy.\n\n• Calculations run on your device.\n• We do not require an account to use the calculators.\n• Optional ads may collect limited device data through ad partners.\n• You can request data deletion from partners according to their policies.\n\nFor questions, contact support via your app store listing.\n\nBy using this app you agree to this Privacy Policy.</string>
+    <string name="back">Back</string>
+    <string name="ad_label">Ad</string>
+    <string name="install">INSTALL</string>
+
+    <string name="tool_tip">Tip Calculator</string>
+    <string name="tool_unit">Unit Converter</string>
+    <string name="tool_bmi">BMI Calculator</string>
+    <string name="tool_mortgage">Mortgage Calculator</string>
+    <string name="tool_loan">Loan Calculator</string>
+    <string name="tool_compound">Compound Interest Calculator</string>
+    <string name="tool_currency">Currency Converter</string>
+    <string name="tool_basic">Calculator</string>
+
+    <string name="bill_total">Bill Total</string>
+    <string name="tip_percent">Tip Percent</string>
+    <string name="split_with">Split with</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="total">Total</string>
+    <string name="per_person">Per person</string>
+
+    <string name="unit">Unit</string>
+    <string name="height_ft_in">Height (ft/in)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_lb">Weight (lb)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="unit_imperial">Imperial</string>
+    <string name="unit_metric">Metric</string>
+    <string name="bmi">BMI</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+
+    <string name="home_price">Home Price (in USD)</string>
+    <string name="down_payment">Down Payment</string>
+    <string name="loan_term">Loan Term (years)</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="taxes_costs">Taxes &amp; Costs (optional)</string>
+    <string name="property_tax">Property Tax /yr</string>
+    <string name="home_insurance">Insurance /yr</string>
+    <string name="calculate">Calculate</string>
+    <string name="total_payable">Total Payable</string>
+    <string name="monthly_payment">Monthly Payment</string>
+    <string name="down_type_percent">%</string>
+    <string name="down_type_amount">$</string>
+
+    <string name="loan">Loan</string>
+    <string name="rate_year">Rate (per year)</string>
+    <string name="time_years_months">Time (years/months)</string>
+    <string name="monthly_pay">Monthly Pay</string>
+    <string name="total_of_payments">Total of 0 Payments</string>
+
+    <string name="initial_value">Initial Value</string>
+    <string name="period_years">Period (years)</string>
+    <string name="compound">Compound</string>
+    <string name="final_value">Final Value</string>
+    <string name="interest">Interest</string>
+
+    <string name="add_currency">+ Add Currency</string>
+    <string name="updated_sample">Updating rates…</string>
+    <string name="updated_at">Updated %1$s</string>
+    <string name="rates_failed">Could not refresh rates</string>
+    <string name="usd_name">United States Dollar</string>
+    <string name="usd_region">United States</string>
+    <string name="eur_name">Euro</string>
+    <string name="eur_region">European Union</string>
+
+    <string name="cat_area">Area</string>
+    <string name="cat_length">Length</string>
+    <string name="cat_temperature">Temperature</string>
+    <string name="cat_volume">Volume</string>
+    <string name="cat_mass">Mass</string>
+    <string name="cat_data">Data</string>
+    <string name="cat_speed">Speed</string>
+    <string name="cat_time">Time</string>
+
+    <string name="zero">0</string>
+    <string name="zero_money">0.00</string>
+    <string name="zero_percent">0.00%</string>
+    <string name="dollar">$</string>
+    <string name="clear">C</string>
+    <string name="parens">( )</string>
+    <string name="percent">%</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="equals">=</string>
+    <string name="dot">.</string>
+    <string name="plus_minus">+/−</string>
+
+    <!-- ========== LAUNCHER_MODE_START ========== -->
+    <string name="launcher_page_home">Home</string>
+    <string name="launcher_page_apps">Apps</string>
+    <string name="launcher_swipe_hint">Swipe left for all apps</string>
+    <string name="launcher_swipe_hint_back">Swipe right for calculator</string>
+    <string name="launcher_apps_empty">No apps found</string>
+    <string name="launcher_set_default_title">Set as home app</string>
+    <string name="launcher_set_default_message">Make Calculator Launcher your default home screen to use it like a phone launcher.\n\nTap Continue and choose Calculator Launcher when prompted.</string>
+    <string name="launcher_set_default_action">Continue</string>
+    <string name="launcher_set_default_later">Not now</string>
+
+    <string name="onboarding_loading">Loading</string>
+    <string name="onboarding_terms">Terms</string>
+    <string name="onboarding_tool_calculator">Calculator</string>
+    <string name="onboarding_intro_title">Calculate Anything</string>
+    <string name="onboarding_continue">Continue →</string>
+    <string name="onboarding_default_bubble">default home app for one-swipe access to your calculator.</string>
+    <string name="onboarding_default_home_label">Default Home App</string>
+    <string name="onboarding_system_launcher">System launcher</string>
+    <string name="onboarding_revert_bubble">can change back anytime from the Help section.</string>
+    <string name="onboarding_revert_home">Revert Home Screen</string>
+    <string name="onboarding_got_it">Got it!</string>
+
+    <string name="home_weather_placeholder">29° Cloudy</string>
+    <string name="home_customize">Customize</string>
+    <string name="home_calculator">Calculator</string>
+    <string name="home_customize_hint">You can tap here to customize your homescreen with your favorite apps</string>
+    <string name="home_search">Search</string>
+    <string name="apps_search_hint">Search Apps and Web</string>
+
+    <string name="customize_title">Pick the apps you want on your home screen</string>
+    <string name="customize_search_hint">Search Apps</string>
+    <string name="customize_select_all">Select All</string>
+    <string name="customize_add_home">Add to Home screen</string>
+    <string name="customize_calc_settings">Calculator Settings</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_contact">Contact Us</string>
+    <string name="settings_wallpaper">Wallpaper</string>
+    <string name="settings_search_engine">Search Engine</string>
+    <string name="settings_about_us">About Us</string>
+    <string name="settings_write_us">Write to us</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="wallpaper_discover">Discover</string>
+    <string name="wallpaper_unsplash_badge">Images by Unsplash</string>
+    <string name="wallpaper_nature">Nature</string>
+    <string name="wallpaper_seascapes">Seascapes</string>
+    <string name="wallpaper_space">Space</string>
+    <string name="wallpaper_city">City</string>
+    <string name="wallpaper_set_confirm">Set this category image as your home wallpaper?</string>
+    <string name="wallpaper_set_action">Set wallpaper</string>
+    <string name="wallpaper_setting">Setting wallpaper…</string>
+    <string name="wallpaper_set_done">Wallpaper updated</string>
+    <string name="wallpaper_failed">Could not set wallpaper</string>
+    <string name="settings_wallpaper_soon">Wallpaper picker coming soon</string>
+    <string name="search_engine_recommended">Recommended</string>
+    <string name="search_engine_yahoo">Yahoo</string>
+    <string name="search_engine_bing">Bing</string>
+    <string name="search_engine_google">Google</string>
+    <string name="launcher_swipe_up_hint">Swipe up for all apps</string>
+    <string name="settings_search_soon">Search engine options coming soon</string>
+    <string name="settings_no_email">No email app found</string>
+
+    <string name="about_menu_about">About Calculator Launcher</string>
+    <string name="about_do_not_sell">Do Not Sell or Share My Personal Information.</string>
+    <string name="about_content">Calculator Launcher combines a full calculator suite with an optional home-screen launcher so you can reach tools in one swipe.</string>
+    <string name="terms_content">Terms of Service\n\nBy using Calculator Launcher you agree to use the app for personal productivity. Features may change. Launcher mode is optional and can be reverted anytime from About → Revert Home Screen.</string>
+    <string name="do_not_sell_content">We do not sell your personal information. Calculations stay on your device. Optional ads may use partners under their policies.</string>
+
+    <string name="revert_confirm_title">Are you sure?</string>
+    <string name="revert_confirm_message">Be careful, resetting the default launcher will disable the Calculator feature.</string>
+    <string name="revert_keep_home">Keep Calculator Home Screen.</string>
+    <!-- ========== LAUNCHER_MODE_END ========== -->
+</resources>

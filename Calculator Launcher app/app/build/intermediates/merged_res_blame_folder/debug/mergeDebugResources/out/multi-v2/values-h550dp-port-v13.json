@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.calculatorlauncher.app-mergeDebugResources-2:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/private/var/folders/9v/b83gl81n0cb080z1_9yw_hwr0000gn/T/cursor-sandbox-cache/4be9fd618f957ad7703cf0f39634ec75/gradle/caches/8.11.1/transforms/99edd1d1c0fb3bcd358e1ca01ce4b033/transformed/material-1.12.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

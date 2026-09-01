@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.calculatorlauncher.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="35" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <!-- LAUNCHER_MODE_START: list all installed apps in drawer -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <!-- LAUNCHER_MODE_END -->
+
+
+    <!-- LAUNCHER_MODE_START: needed to list installed apps on Android 11+ -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
+    <permission
+        android:name="com.calculatorlauncher.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.calculatorlauncher.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- LAUNCHER_MODE_END -->
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CalculatorLauncher"
+        android:usesCleartextTraffic="false" >
+
+        <!--
+        CALCULATOR_ONLY_START: uncomment this block and comment LAUNCHER_MODE block to disable launcher
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        CALCULATOR_ONLY_END
+        -->
+
+
+        <!-- LAUNCHER_MODE_START: comment this entire block to disable phone launcher -->
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.OnboardingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.LauncherHomeActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.LauncherHome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.SearchEngineActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.WallpaperDiscoverActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.CustomizeAppsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.LauncherSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.launcher.AboutMenuActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <activity
+            android:name="com.calculatorlauncher.app.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CalculatorLauncher" />
+        <!-- LAUNCHER_MODE_END -->
+
+        <activity
+            android:name="com.calculatorlauncher.app.ui.HistoryActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.InfoActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.TipCalculatorActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.UnitConverterActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.CurrencyConverterActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.BmiCalculatorActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.MortgageCalculatorActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.LoanCalculatorActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+        <activity
+            android:name="com.calculatorlauncher.app.ui.CompoundInterestActivity"
+            android:exported="false"
+            android:parentActivityName="com.calculatorlauncher.app.MainActivity" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.calculatorlauncher.app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

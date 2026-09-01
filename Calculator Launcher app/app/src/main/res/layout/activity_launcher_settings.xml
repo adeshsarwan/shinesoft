@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ========== LAUNCHER_MODE_START ========== -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnSettingsBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/settings_title"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/settings_general"
+        android:textAllCaps="true"
+        android:textColor="#9A9A9A"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_settings_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rowWallpaper"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_pink" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/settings_wallpaper" />
+        </LinearLayout>
+
+        <View style="@style/SettingsDivider" />
+
+        <LinearLayout
+            android:id="@+id/rowSearchEngine"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_teal" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/settings_search_engine" />
+        </LinearLayout>
+
+        <View style="@style/SettingsDivider" />
+
+        <LinearLayout
+            android:id="@+id/rowAboutUs"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_blue" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/settings_about_us" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/settings_contact"
+        android:textAllCaps="true"
+        android:textColor="#9A9A9A"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_settings_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rowHelp"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_green" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/menu_help" />
+        </LinearLayout>
+
+        <View style="@style/SettingsDivider" />
+
+        <LinearLayout
+            android:id="@+id/rowWriteUs"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_mail" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/settings_write_us" />
+        </LinearLayout>
+
+        <View style="@style/SettingsDivider" />
+
+        <LinearLayout
+            android:id="@+id/rowPrivacy"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_shield" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/menu_privacy" />
+        </LinearLayout>
+
+        <View style="@style/SettingsDivider" />
+
+        <LinearLayout
+            android:id="@+id/rowTerms"
+            style="@style/SettingsRow">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_settings_icon_orange" />
+
+            <TextView
+                style="@style/SettingsRowText"
+                android:text="@string/settings_terms" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<!-- ========== LAUNCHER_MODE_END ========== -->
