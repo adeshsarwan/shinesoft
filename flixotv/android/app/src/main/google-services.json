@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088748104202",
+    "project_id": "iptv-92087",
+    "storage_bucket": "iptv-92087.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088748104202:android:bfa036efeed876a024cdf3",
+        "android_client_info": {
+          "package_name": "com.flixotv.ignia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJcN-aV9Yn2rdLHX7I-4vLJKR0fEMho7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088748104202:android:362937443f8cd22324cdf3",
+        "android_client_info": {
+          "package_name": "com.stream.flixo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJcN-aV9Yn2rdLHX7I-4vLJKR0fEMho7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
