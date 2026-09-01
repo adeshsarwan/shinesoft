@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">880734275913</string>
+  <string name="google_storage_bucket" translatable="false">dot-connect-644b4.firebasestorage.app</string>
+  <string name="project_id" translatable="false">dot-connect-644b4</string>
+  <string name="google_api_key" translatable="false">AIzaSyBwvJ5P4-_UcyUNlMvrV55r3eEUAfY9p9M</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwvJ5P4-_UcyUNlMvrV55r3eEUAfY9p9M</string>
+  <string name="google_app_id" translatable="false">1:880734275913:android:dddf0e0678e1cab3fa7298</string>
+</resources>
